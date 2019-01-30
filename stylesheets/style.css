@@ -1,12 +1,12 @@
 body {
    height: 
-   max-width: 290px;
+   max-width: 370px;
 }
 .hidden {
 	display: none;
 	visibility: hidden;
 }
-.background img {
+.background {
 	height:	 100vh;
 	background-image: url(../images/me-1.jpg);
 }
@@ -43,14 +43,200 @@ header h1 {
 .enter {
 	height: 100vh;
 	min-height: 500px;
+	background-image: url(../images/me-1.jpg);
 
 }
-.profile-img img {
+.profile img {
 	border-radius: 50%;
+	border: solid 10px white;
+	box-shadow: 1px 8px 5px grey;
 	width: 150px;
-	box-shadow: 5px 1px white;
 	position: absolute;
-	left: 36%;
+	left: 20%;
 	bottom: 78%;
 	z-index: 1;
+}
+.little-menu {
+	background-color: black;
+	color: white;
+	padding-left: 4%;
+	padding-bottom: 40px;
+	margin-top: 20px;
+	padding-top: 20px;
+
+}
+.little-menu div {
+	margin-top: 20%;
+	text-align: center;
+	height: 100px;
+}
+.little-menu div h1 {
+	padding-left: 2%;
+}
+.little-menu div h1, .little-menu div p {
+  margin-top: 20px;
+}
+.skill {
+    padding-left: 20px;
+    margin-top: 35px;
+}
+.gallery {
+	margin-top: 35px;
+	margin-left: 0%;
+	text-align: center;
+}
+
+.gallery div img {
+	width: 70%;
+	margin-top:10px;
+}
+.little-menu div i {
+	font-size: 50px;
+	margin-left: 15px;
+}
+.job {
+	margin-top: 35px;
+    padding-left: 14%;
+    padding-right: 14%;
+}
+.job div {
+	margin-top: 20px;
+	text-align: center;
+	height: 220px;
+    box-shadow: 2px 2px 2px grey;
+}
+.job div i {
+	margin-left: 30px;
+	font-size: 50px;
+}
+.job div h1, .job div p {
+	padding-top: 20px;
+}
+.job div p {
+	 padding-top: 10px;
+    text-align: center;
+}
+.about h1  {
+    margin-bottom: 20px;
+}
+.skill div {
+	margin-top: 30px;
+}
+.skill .white {
+    width: 100%;
+    background: grey;
+}
+.skill h1 {
+	margin-bottom: 40px;
+	font-size: 25px;
+}
+.skill .b90{
+	width: 90%;
+	background: black;
+    position: absolute;
+    top: 933px;
+}
+.skill .b85{
+	width: 85%;
+	background: black;
+    position: absolute;
+    top: 1025px;
+}
+.skill .b84{
+	width: 84%;
+	background: black;
+    position: absolute;
+    top: 1117px;
+}
+.skill .b88 {
+	width: 88%;
+	background: black;
+    position: absolute;
+    top: 1209px;
+}
+.gallery h1 {
+	padding-bottom: 20px;
+}
+.gallery div .nav {
+	height: 200px;
+	padding-left: 20%;
+}
+.gallery .nav p {
+       float: left;
+       padding-left: 10px;
+       color: pink;
+       background-color: grey;
+}
+.recent {
+	height: 200px;
+}
+.recent h1 {
+	font-size: 40px;
+
+}
+.article {
+	text-align: center;
+	background: black;
+	color: pink;
+	height: 400px;
+	font-size: 25px;
+}
+.article p {
+	padding-top: 40px;
+}
+.article div #one {
+	float: left;
+	padding-left: 10%;
+}
+.artivle div #two{
+	float: right;
+	padding-right: 10%;
+}
+.blog {
+	padding-left: 10%;
+	background: #FAFAFA;
+	padding-right: 10%;
+	margin-bottom: 30px;
+}
+.blog div {
+	box-shadow: 2px 2px 2px ;
+	margin-top: 30px;
+}
+.blog div img {
+     width:80%; 
+}
+.blog div h2 {
+      font-size: 20px;
+      padding-top: 10px;
+      padding-left: 10px;
+}
+.blog div p {
+	font-size: 15px;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.blog div h1 {
+	font-size: 10px;
+	padding-left: 10px;
+}
+.blog #h1 {
+	padding-left: 25%;
+	height: 200px;
+	font-size: 25px;
+}
+.last  {
+   padding-left: 25%;
+   padding-right: 25%;
+   padding-top: 50px;
+   background-color: #141414; 
+   padding-bottom: 20px;
+}
+.last div {
+	padding-top: 35px;
+}
+.last div i {
+	font-size: 50px;
+	padding-left: 40px;
+	padding-bottom: 20px;
+
 }
