@@ -232,7 +232,7 @@ header h1 {
    padding-bottom: 20px;
 }
 .last div {
-	padding-top: 35px;
+	padding-top: 35px;	
 }
 .last div i {
 	font-size: 50px;
@@ -240,3 +240,29 @@ header h1 {
 	padding-bottom: 20px;
 
 }
+
+@media only screen and (min-width: 768px) {
+  body {
+  	max-width: 1000px;
+  }
+  .hidden {
+     display: inline-block;
+     visibility: visible;
+  }
+  nav {
+    float: right;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+} 
