@@ -2,6 +2,18 @@ body {
    height: 
    max-width: 370px;
 }
+.paddings {
+	display: flex;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+
+
+
+
+
+
 .hidden {
 	display: none;
 	visibility: hidden;
@@ -30,10 +42,10 @@ body {
 	margin-top: 25px; 	
 	margin-left: 35%;
 }
-.about {
+/*.about {
     margin-top: 100px;
     padding-left: 20px;
-}
+}*/
 #mazen {
 	position: absolute;
 	top: 20px
@@ -44,7 +56,6 @@ header h1 {
 }
 body .enter {
 	height: 100vh;
-	width: 168vh;
 	min-height: 500px;
 	background-image: url(../images/me-1.jpg);
 
@@ -64,8 +75,8 @@ body .enter {
 .little-menu {
 	background-color: black;
 	color: white;
-	padding-left: 4%;
-	padding-bottom: 40px;
+	/*padding-left: 4%;
+	padding-bottom: 40px;*/
 	margin-top: 50px;
 	padding-top: 20px;
 
@@ -81,12 +92,12 @@ body .enter {
 .little-menu div h1, .little-menu div p {
   margin-top: 20px;
 }
-.skill {
+/*.skill {
     padding-left: 20px;
     margin-top: 35px;
     margin-bottom: 10px;
     padding-right: 10px;
-}
+}*/
 .gallery {
 	margin-top: 35px;
 	margin-left: 0%;
@@ -110,7 +121,7 @@ body .enter {
 	margin-top: 20px;
 	text-align: center;
 	height: 220px;
-    box-shadow: 2px 2px 2px grey;
+    box-shadow: 2px 2px 7px grey;
 }
 .job div i {
 	margin-left: 30px;
@@ -267,6 +278,10 @@ body .article {
 	padding-bottom: 20px;
 
 }
+.both {
+	display: flex;
+	flex-wrap: nowrap;
+}
 @media only screen and (min-width: 768px) {
   body {
   	max-width: 1000px;
@@ -291,9 +306,6 @@ body .article {
 	display: inline-block;
 	position: absolute;
 	bottom: 50%;
-}
-body .little-menu {
-	width: 100%;
 }
 .little-menu {
 	display: flex;
@@ -347,9 +359,12 @@ body {
   }
    .job {
 	display: flex;
-	flex-wrap: nowrap;
+	flex-wrap: wrap;
 	justify-content: space-between;
  }
+  .job div {
+  	width: 28%;
+  }
  .profile {
  	width: 515px;
  	height: 235px;
@@ -370,7 +385,7 @@ body {
  .photo > div {
  	width: 26%;
  }
-
+  
 
 
 
