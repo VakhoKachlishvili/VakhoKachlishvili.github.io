@@ -7,13 +7,6 @@ body {
 	padding-left: 10%;
 	padding-right: 10%;
 }
-
-
-
-
-
-
-
 .hidden {
 	display: none;
 	visibility: hidden;
@@ -21,6 +14,7 @@ body {
 .background {
 	height:	 100vh;
 	background-image: url(../images/me-1.jpg);
+	background-size: cover;
 }
 .profile {
 	background: white;
@@ -207,16 +201,15 @@ body .enter {
 	font-size: 40px;
 
 }
-body .article {
-	width: 100%;
-}
 .article {
 	text-align: center;
 	background: black;
-	color: pink;
+	color: white;
 	height: 400px;
-	font-size: 25px;
+	font-size: 15px;
 	margin-top: 60px;
+	padding-top: 110px;
+	box-sizing: border-box;
 }
 .article p {
 	padding-top: 40px;
@@ -235,9 +228,9 @@ body .article {
 	padding-right: 10%;
 	margin-bottom: 80px;
 }
-.blog div div {
-	box-shadow: 2px 2px 2px ;
-	margin-top: 30px;
+.blog-text {
+	border: 1px solid #EEEEEE;
+	justify-content: space-around;
 }
 .blog div div img {
      width:80%; 
@@ -263,24 +256,53 @@ body .article {
 	margin-top: 100px;
 }
 .last  {
-   padding-left: 25%;
-   padding-right: 25%;
-   padding-top: 50px;
    background-color: #141414; 
-   padding-bottom: 20px;
+    padding: 50px 15%;
 }
 .last div {
 	padding-top: 35px;	
 }
 .last div i {
 	font-size: 50px;
-	padding-left: 40px;
 	padding-bottom: 20px;
-
 }
 .both {
 	display: flex;
 	flex-wrap: nowrap;
+}
+.form {
+	display: block;
+    width: 100%;
+    padding: 0 15%;
+}
+.pl1  {
+   display: flex;
+   justify-content: space-between;
+   padding-bottom: 4%; 
+}
+input {
+	width: 48%;
+	height: 57px;
+	text-indent: 15px;
+	background-color: #F3F3F3;
+	border: 0px ;
+}
+textarea {
+	width: 100%;
+	height: 125px;
+	text-indent: 15px;
+	margin-bottom: 50px;
+	background-color: #F3F3F3;
+	border: 0px;
+}
+button {
+	display: block;
+	width: 165px;
+	margin: auto;
+	height: 56px;
+	background: #000;
+	color: white;
+	margin-bottom: 90px;
 }
 @media only screen and (min-width: 768px) {
   body {
@@ -334,22 +356,23 @@ body .article {
 	/*justify-content: space-around;*/
 }
 .photo div {
-	width: 50%;	
+	width: 48%;	
 }
 .blog div img {
-    width: 94%;
+    width: 100%;
     padding-left: 10px; 
-}
-.blog div {	
-    width: 75%;
-}
-.blog {
-	padding-left: 25%;
 }
 .last {
 	display: flex;
 	flex-wrap: nowrap;
 	justify-content: space-around;
+	color: #797979;
+}
+.last div {
+	text-align: center;
+}
+.last div {
+	width: 32%
 }
 }
 @media only screen and (min-width: 1200px) {
@@ -370,7 +393,7 @@ body {
  	height: 235px;
  }
  .skill {
- 	    width: 40%;
+ 	  width: 40%;
     float: right;
     margin-left: 50px;
  }
@@ -379,14 +402,18 @@ body {
     float: left;
  }
  .gallery div img {
-    width: 67%;
+    width: 100%;
     margin-top: 10px;
 }
- .photo > div {
- 	width: 26%;
+ .photo {
+ 	justify-content: space-around;
  }
-  
-
-
+ .photo > div {
+ 	width: 32%;
+ }
+ .blog div div img {
+    width: 97%;
+}
+ 
 
 } 
