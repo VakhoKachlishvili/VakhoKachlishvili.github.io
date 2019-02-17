@@ -1,6 +1,6 @@
 body {
-   height: 
    max-width: 370px;
+   font-family: 'Montserrat', sans-serif;
 }
 .paddings {
 	display: flex;
@@ -14,7 +14,6 @@ body {
 .background {
 	height:	 100vh;
 	background-image: url(../images/me-1.jpg);
-	background-size: cover;
 }
 .profile {
 	background: white;
@@ -44,6 +43,11 @@ body {
 	position: absolute;
 	top: 20px
 	left: 20px;
+	color: white;
+}
+.shadow {
+   background-color: rgba(0, 0, 0, 0.56);
+   height: 100%;
 }
 header h1 {
 	position: absolute;
@@ -52,6 +56,7 @@ body .enter {
 	height: 100vh;
 	min-height: 500px;
 	background-image: url(../images/me-1.jpg);
+	background-size: cover;
 
 }
 .profile img {
@@ -307,6 +312,7 @@ button {
 @media only screen and (min-width: 768px) {
   body {
   	max-width: 1000px;
+  	font-family: 'Montserrat', sans-serif;
   }
   .hidden {
      display: inline-block;
@@ -317,6 +323,7 @@ button {
 	padding-left: 50px;
 	float:right;
 	line-height: 90px;
+	color: white;
  }
  li {
 	display: inline;
@@ -327,7 +334,7 @@ button {
 	background: white;
 	display: inline-block;
 	position: absolute;
-	bottom: 50%;
+	bottom: 25%;
 }
 .little-menu {
 	display: flex;
