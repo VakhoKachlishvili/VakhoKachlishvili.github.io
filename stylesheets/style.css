@@ -14,7 +14,9 @@ body {
 	background: white;
 	display: inline-block;
 	position: absolute;
-	left: 50%;
+	left: 0;
+	right: 0;
+	margin: auto;
 	bottom: 50%;
 	border: 1px solid;
 	height: 200px;
@@ -53,7 +55,9 @@ body .enter {
 	box-shadow: 1px 8px 5px grey;
 	width: 150px;
 	position: absolute;
-	left: 20%;
+	left: 0;
+	right: 0;
+	margin: auto;
 	bottom: 78%;
 	z-index: 1;
 }
@@ -263,7 +267,6 @@ body .article {
 	padding-bottom: 20px;
 
 }
-
 @media only screen and (min-width: 768px) {
   body {
   	max-width: 1000px;
@@ -287,8 +290,6 @@ body .article {
 	background: white;
 	display: inline-block;
 	position: absolute;
-	left: 380px;
-	top: 250px;
 	bottom: 50%;
 }
 body .little-menu {
@@ -340,14 +341,18 @@ body .little-menu {
 }
 }
 @media only screen and (min-width: 1200px) {
-
 body {
-  	min-width: 1200px;
+  	min-width: 100%;
+  	max-width: auto;
   }
    .job {
 	display: flex;
 	flex-wrap: nowrap;
 	justify-content: space-between;
+ }
+ .profile {
+ 	width: 515px;
+ 	height: 235px;
  }
  .skill {
  	    width: 40%;
