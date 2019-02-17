@@ -14,7 +14,7 @@ body {
 	background: white;
 	display: inline-block;
 	position: absolute;
-	left: 80px;
+	left: 50%;
 	bottom: 50%;
 	border: 1px solid;
 	height: 200px;
@@ -40,8 +40,9 @@ body {
 header h1 {
 	position: absolute;
 }
-.enter {
+body .enter {
 	height: 100vh;
+	width: 168vh;
 	min-height: 500px;
 	background-image: url(../images/me-1.jpg);
 
@@ -219,24 +220,24 @@ body .article {
 	padding-right: 10%;
 	margin-bottom: 80px;
 }
-.blog div {
+.blog div div {
 	box-shadow: 2px 2px 2px ;
 	margin-top: 30px;
 }
-.blog div img {
+.blog div div img {
      width:80%; 
 }
-.blog div h2 {
+.blog div div h2 {
       font-size: 20px;
       padding-top: 10px;
       padding-left: 10px;
 }
-.blog div p {
+.blog div div p {
 	font-size: 15px;
 	padding-top: 10px;
 	padding-left: 10px;
 }
-.blog div h1 {
+.blog div div h1 {
 	font-size: 10px;
 	padding-left: 10px;
 }
@@ -347,6 +348,25 @@ body {
 	display: flex;
 	flex-wrap: nowrap;
 	justify-content: space-between;
+ }
+ .skill {
+ 	    width: 40%;
+    float: right;
+    margin-left: 50px;
+ }
+ .about {
+ 	width: 40%;
+    float: left;
+ }
+ .gallery div img {
+    width: 67%;
+    margin-top: 10px;
 }
+ .photo > div {
+ 	width: 26%;
+ }
+
+
+
 
 } 
