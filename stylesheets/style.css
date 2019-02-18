@@ -72,7 +72,7 @@ header li {
 }*/
 #mazen {
 	position: absolute;
-	top: 20px
+	top: 20px;
 	left: 20px;
 	color: white;
 }
@@ -235,13 +235,9 @@ body .enter {
 .gallery .nav p {
        float: left;
        padding-left: 10px;
-       color: pink;
-       background-color: grey;
 }
 .recent {
-	margin-bottom: 50px;
-    height: 100px;
-    margin-top: 90px;
+	height: 100px;
 }
 .recent h1 {
 	font-size: 40px;
@@ -256,17 +252,12 @@ body .enter {
 	margin-top: 60px;
 	padding-top: 110px;
 	box-sizing: border-box;
+    flex-direction: column;
 }
 .article p {
 	padding-top: 40px;
 }
 .article div #one {
-	float: left;
-	padding-left: 20%;
-}
-.article div #two{
-	float: right;
-	padding-right: 50%;
 }
 .blog {
 	padding-left: 10%;
@@ -444,6 +435,10 @@ body {
   	min-width: 100%;
   	max-width: auto;
   }
+  .hidden {
+  	padding-top: 20px;
+  }
+
    .job {
 	display: flex;
 	flex-wrap: wrap;
